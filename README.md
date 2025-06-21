@@ -1,12 +1,14 @@
 # 📊 Comprehensive Loan Analytics Dashboard – Power BI
 
-## 🔍 Project Description
+![Dashboard-1](https://github.com/bhaskarpal1707/Comprehensive_Loan_Analytics_Dashboard-Power-BI/blob/main/Dashboard%201.png?raw=true)
+
+## 🔍 Project Description:
 
 This project delivers a professional and insightful **Loan Analytics Dashboard** built in **Power BI** using a comprehensive dataset containing financial, behavioral, and demographic data of loan applicants. The dashboard enables data-driven decision-making for banks and financial institutions by analyzing **risk**, identifying **fraud patterns**, and understanding **customer behavior**.
 
 ---
 
-## 🎯 Objective
+## 🎯 Objective:
 
 - Evaluate loan applicants’ **financial risk** using key metrics like credit score and debt ratios.
 - Detect **potential fraudulent applications** based on behavior flags like high credit usage and defaults.
@@ -15,18 +17,18 @@ This project delivers a professional and insightful **Loan Analytics Dashboard**
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Used:
 
 - **Power BI Desktop** (Data Modeling & Visualization)
 - **DAX** (Data Analysis Expressions for KPIs and calculations)
 - **Power Query (M Language)** for data transformation
 - **Python** (for exploratory data analysis in Jupyter)
 - Data Format: **CSV**
-- Supporting notebook: `EDA.ipynb`
+- Supporting notebook: `EDA.ipynb` (https://github.com/bhaskarpal1707/Loan-Risk-Analyzer)
 
 ---
 
-## 📁 Dataset Overview
+## 📁 Dataset Overview:
 
 The dataset includes **20,000 loan applicants** and contains:
 
@@ -39,7 +41,7 @@ The dataset includes **20,000 loan applicants** and contains:
 
 ---
 
-## 📊 Dashboard Structure
+## 📊 Dashboard Structure:
 
 ### 🔵 Page 1: Executive Summary (KPIs + Slicers)
 
@@ -82,7 +84,7 @@ The dataset includes **20,000 loan applicants** and contains:
 
 ---
 
-## 📌 DAX Measures Used
+## 📌 DAX Measures Used:
 
 ```dax
 -- Average Risk Score
@@ -127,7 +129,7 @@ CALCULATE(
     'Loan'[FraudFlag] = 1
 )
 ```
-## 🔧 Power Query (M Language Transformations)
+## 🔧 Power Query:
 
 ```m
 -- Age Group
@@ -162,7 +164,7 @@ else 0
 
 ---
 
-### 💡 Business Insights
+### 💡 Business Insights:
 
 ```markdown
 ## 💡 Business Insights
@@ -179,7 +181,7 @@ else 0
 - **Customer behavior trends** like **age group and marital status** strongly influence loan approval and default rates.
 ```
 
-## ✅ Conclusion
+## ✅ Conclusion:
 
 The **Comprehensive Loan Analytics Dashboard** provides an actionable view into:
 - **Loan risk segmentation**
