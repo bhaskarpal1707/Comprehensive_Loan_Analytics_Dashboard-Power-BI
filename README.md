@@ -40,6 +40,7 @@ The dataset includes **20,000 loan applicants** and contains:
 | `CreditCardUtilizationRate`, `DebtToIncomeRatio` | Float | Credit behavior indicators                    |
 
 ---
+![Dashboard-1](https://github.com/bhaskarpal1707/Comprehensive_Loan_Analytics_Dashboard-Power-BI/blob/main/Dashboard%202.png?raw=true)
 
 ## 📊 Dashboard Structure:
 
@@ -129,6 +130,8 @@ CALCULATE(
     'Loan'[FraudFlag] = 1
 )
 ```
+![Dashboard-1](https://github.com/bhaskarpal1707/Comprehensive_Loan_Analytics_Dashboard-Power-BI/blob/main/Dashboard%203.png?raw=true)
+
 ## 🔧 Power Query:
 
 ```m
