@@ -27,7 +27,6 @@ This project delivers a professional and insightful **Loan Analytics Dashboard**
 - Supporting notebook: `EDA.ipynb` (https://github.com/bhaskarpal1707/Loan-Risk-Analyzer)
 
 ---
-## 📁 EDA Analysis Link: ![](https://github.com/bhaskarpal1707/Loan-Risk-Analyzer)
 ## 📁 Dataset Overview:
 
 The dataset includes **20,000 loan applicants** and contains:
